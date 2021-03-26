@@ -1,0 +1,7 @@
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\CommodityTurnover\bin\Debug\CommodityTurnover.exe.config
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\CommodityTurnover\bin\Debug\CommodityTurnover.exe
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\CommodityTurnover\bin\Debug\CommodityTurnover.pdb
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\CommodityTurnover\obj\Debug\CommodityTurnover.csprojAssemblyReference.cache
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\CommodityTurnover\obj\Debug\CommodityTurnover.csproj.CoreCompileInputs.cache
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\CommodityTurnover\obj\Debug\CommodityTurnover.exe
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\CommodityTurnover\obj\Debug\CommodityTurnover.pdb
