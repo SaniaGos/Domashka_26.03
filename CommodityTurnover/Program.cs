@@ -11,6 +11,8 @@ namespace CommodityTurnover
     {
         static void Main(string[] args)
         {
+            // розширте консоль до 100 символів, бо можуть надписи не влізти і некрасиво виглядає
+
             Turnover turnover = new Turnover();
             turnover.IncomingItem(new Product[]  // Прийшли продукти в магаз
             {
