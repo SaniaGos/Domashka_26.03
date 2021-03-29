@@ -24,7 +24,7 @@ namespace CommodityTurnover
             });
             turnover.RealizeItem(102); // продаєм один з товарів по Id
             turnover.RealizeItem(102); // пробуєм щераз продати, але його вже немає в магазі, видасть попереждення про відсутність товару
-            turnover.WriteOffItem(203); // списуєм піцу, в ній якісь зелені гриби почали розти
+            turnover.WriteOffItem(203); // списуєм піцу, в ній якісь зелені гриби почали рости
             turnover.TransferItem(322); // передаєм машинку в інший магазин
             turnover.Remainder(); // залишок товару
 
