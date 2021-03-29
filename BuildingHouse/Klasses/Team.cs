@@ -11,10 +11,10 @@ namespace BuildingHouse.Klasses
         private House house;
         private List<Worker> workers;
         public TeamLeader TeamLeader { get; }
-        public readonly int maxWorkers;
-        public Team(House house, int maxWorkers = 4)
+        public readonly int needWorkers;
+        public Team(House house, int needWorkers = 4)
         {
-            this.maxWorkers = maxWorkers;
+            this.needWorkers = needWorkers;
             this.house = house;
             TeamLeader = new TeamLeader(house);
             workers = new List<Worker>();
@@ -23,7 +23,7 @@ namespace BuildingHouse.Klasses
         {
             for (int i = 0; i < num; i++)
             {
-                if (workers.Count < maxWorkers)
+                if (workers.Count < needWorkers)
                 {
                     workers.Add(new Worker());
                 }
@@ -46,7 +46,7 @@ namespace BuildingHouse.Klasses
         }
         public void BuildBasement()
         {
-            if (workers.Count >= 2)
+            if (workers.Count >= needWorkers)
             {
                 if (!house.Documentation.ActWorkPerformed.BasementFinish)
                 {
@@ -68,11 +68,11 @@ namespace BuildingHouse.Klasses
         }
         public void BuildWalls()
         {
-            if (workers.Count >= 2)
+            if (workers.Count >= needWorkers)
             {
                 if (house.Documentation.ActWorkPerformed.BasementFinish && !house.Documentation.ActWorkPerformed.WallsFinish)
                 {
-                    if (house.Walls is null) throw new Exception("Walls is NULL");
+                    if (house.Walls is null) throw new Exception("Walls are NULL");
                     house.Walls.DoBuild(house.Documentation.ProgressBook.Walls);
                     house.Documentation.ProgressBook.Walls++;
                     if (house.Documentation.ProgressBook.Walls == house.Documentation.Project.Walls)
@@ -84,7 +84,7 @@ namespace BuildingHouse.Klasses
                 }
                 else
                 {
-                    MyConsole.WriteInformation("Walls is already buil");
+                    MyConsole.WriteInformation("Walls are already buil");
                 }
             }
             else
@@ -94,7 +94,7 @@ namespace BuildingHouse.Klasses
         }
         public void BuildRoof()
         {
-            if (workers.Count >= 2)
+            if (workers.Count >= needWorkers)
             {
                 if (house.Documentation.ActWorkPerformed.WallsFinish && !house.Documentation.ActWorkPerformed.RoofFinish)
                 {
@@ -120,7 +120,7 @@ namespace BuildingHouse.Klasses
         }
         public void BuildWindows()
         {
-            if (workers.Count >= 2)
+            if (workers.Count >= needWorkers)
             {
                 if (house.Documentation.ActWorkPerformed.WallsFinish && !house.Documentation.ActWorkPerformed.WindowFinish)
                 {
@@ -146,7 +146,7 @@ namespace BuildingHouse.Klasses
         }
         public void BuildDoor()
         {
-            if (workers.Count >= 2)
+            if (workers.Count >= needWorkers)
             {
                 if (house.Documentation.ActWorkPerformed.WallsFinish && !house.Documentation.ActWorkPerformed.DoorFinish)
                 {
@@ -170,7 +170,5 @@ namespace BuildingHouse.Klasses
                 MyConsole.WriteInformation("Very few workers   ");
             }
         }
-
-
     }
 }

@@ -20,12 +20,12 @@ namespace BuildingHouse.Klasses
             Console.SetCursorPosition(55, 16); Console.Write("6.Build Door");
             Console.SetCursorPosition(55, 17); Console.Write("7.Hire an employee");
             Console.SetCursorPosition(55, 18); Console.Write("8.Dismiss the employee");
-            Console.SetCursorPosition(55, 19); Console.Write("9.Close program");
-            Console.SetCursorPosition(55, 20); Console.Write("To Continue press any key");
+            Console.SetCursorPosition(55, 19); Console.Write("Esc.Close program");
+            Console.SetCursorPosition(55, 21); Console.Write("To Continue press any key");
             Team team = new Team(new House(project));
             while (true)
             {
-                Console.SetCursorPosition(55, 21);
+                Console.SetCursorPosition(55, 22);
                 switch (Console.ReadKey().Key)
                 {
                     case ConsoleKey.Backspace:
@@ -96,6 +96,7 @@ namespace BuildingHouse.Klasses
                         team.HireWorkers();
                         break;
                     case ConsoleKey.D8:
+                        team.LayOffWorkers();
                         break;
                     case ConsoleKey.D9:
                         break;
@@ -183,6 +184,7 @@ namespace BuildingHouse.Klasses
                         team.HireWorkers();
                         break;
                     case ConsoleKey.NumPad8:
+                        team.LayOffWorkers();
                         break;
                     case ConsoleKey.NumPad9:
                         break;

@@ -13,8 +13,8 @@ namespace BuildingHouse.Klasses
         public void DoBuild(int part = 1)
         {
             MyConsole.WriteInformation("Roof is building     ");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            for (int i = 0; i < 9; i++)
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            for (int i = 0; i < 10; i++)
             {
                 Console.SetCursorPosition(3 + i, 11 - i);
                 for (int j = 0; j < 44 - i * 2; j++)
