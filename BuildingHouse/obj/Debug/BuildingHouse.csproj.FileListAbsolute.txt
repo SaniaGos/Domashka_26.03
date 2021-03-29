@@ -1,0 +1,7 @@
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\BuildingHouse\bin\Debug\BuildingHouse.exe.config
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\BuildingHouse\bin\Debug\BuildingHouse.exe
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\BuildingHouse\bin\Debug\BuildingHouse.pdb
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\BuildingHouse\obj\Debug\BuildingHouse.csprojAssemblyReference.cache
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\BuildingHouse\obj\Debug\BuildingHouse.csproj.CoreCompileInputs.cache
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\BuildingHouse\obj\Debug\BuildingHouse.exe
+C:\Users\SaniaGos\source\repos\Domashka_sharp_\BuildingHouse\obj\Debug\BuildingHouse.pdb
