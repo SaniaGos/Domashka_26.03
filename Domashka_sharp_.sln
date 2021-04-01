@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommodityTurnover", "Commod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingHouse", "BuildingHouse\BuildingHouse.csproj", "{3A645C70-DCAA-4364-B353-BADB5D772442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCard", "GameCart\GameCard.csproj", "{BFDF2A08-CB63-4736-A978-A005C0FE286E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{3A645C70-DCAA-4364-B353-BADB5D772442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A645C70-DCAA-4364-B353-BADB5D772442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A645C70-DCAA-4364-B353-BADB5D772442}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
