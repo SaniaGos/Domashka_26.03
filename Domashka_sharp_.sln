@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommodityTurnover", "Commod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingHouse", "BuildingHouse\BuildingHouse.csproj", "{3A645C70-DCAA-4364-B353-BADB5D772442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{A370631E-BF7E-44E4-B2CD-DC4A1D5FDBAD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCard", "GameCart\GameCard.csproj", "{BFDF2A08-CB63-4736-A978-A005C0FE286E}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{3A645C70-DCAA-4364-B353-BADB5D772442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A645C70-DCAA-4364-B353-BADB5D772442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A645C70-DCAA-4364-B353-BADB5D772442}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A370631E-BF7E-44E4-B2CD-DC4A1D5FDBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A370631E-BF7E-44E4-B2CD-DC4A1D5FDBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A370631E-BF7E-44E4-B2CD-DC4A1D5FDBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A370631E-BF7E-44E4-B2CD-DC4A1D5FDBAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Release|Any CPU.ActiveCfg = Release|Any CPU
